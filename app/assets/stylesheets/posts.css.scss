@@ -15,15 +15,18 @@ body {
 }
 
 h1 {
-    background-color: #f2580b;
+    background-color: #2B4563;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
     height: 50px;
     text-align: center;
-    color: white;
     padding-top: 5px;
 }
 
-.follow {
+.app_title {
+    color: #fff;
+}
+
+.follow_me {
     color: blue;
     text-align: center;
 }
@@ -34,16 +37,28 @@ h1 {
     background-color: #fff;
 }
 
-button {
-    background-color: #f2580b;
+.new_post {
+    background-color: #B6C7DB;
     border: none;
-    color: #fff;
+    color: #000;
     cursor: pointer;
     font-size: 14px;
     margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
     padding: 12px 24px;
+    width: 95%;
     text-decoration: none;
-    display: inline-block;
+    display: block;
+}
+
+.return_home {
+    border: none;
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 2%;
+    display: block;
 }
 
 .form-control {
@@ -58,8 +73,9 @@ form textarea {
     font-size: 14px;
     font-weight: 300;
     margin: 20px 0 10px;
-    min-height: 100px;
+    min-height: 250px;
     padding: 16px;
+    display: block;
     transition: border 0.5s;
     width: calc(100% - 45px);
 }
@@ -69,17 +85,6 @@ form textarea:focus {
     box-shadow: 0;
     outline: 0;
     transition: border 0.5s;
-}
-
-button {
-    background-color: #f2580b;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    font-size: 14px;
-    margin-top: 10px;
-    padding: 12px 24px;
-    transition: background-color 0.5s;
 }
 
 .time {
