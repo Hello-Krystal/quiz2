@@ -1,0 +1,12 @@
+<div class="container">
+    <h2 class="text-center">
+        <%= @post.title %>
+    </h2>
+    <div>
+        <%= @post.body %>
+    </div>
+    <h5 class="text-center">
+        <%= @post.created_at.strftime('%b %d, %Y') %>
+    </h5>
+
+</div>
